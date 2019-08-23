@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mockdatawebpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mockdatawebpart/MockdatawebpartWebPart.js",
+          "manifest": "./src/webparts/mockdatawebpart/MockdatawebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MockdatawebpartWebPartStrings": "lib/webparts/mockdatawebpart/loc/{locale}.js"
+  }
+}
